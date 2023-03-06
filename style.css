@@ -1,0 +1,174 @@
+/* image source
+https://bakingmischief.com/chocolate-chip-waffles/
+https://www.allrecipes.com/recipe/7016/french-toast-i/ 
+https://www.foodnetwork.com/recipes/food-network-kitchen/steak-and-eggs-recipe-3361495
+https://www.framedcooks.com/article/the-best-breakfast-sandwich
+https://downshiftology.com/recipes/how-to-make-an-omelette/
+https://www.dailymail.co.uk/health/article-5062833/Eating-2-burgers-better-ordering-one-fries.html
+https://assets.epicurious.com/photos/5995b9ce7ab3b547b4e167a2/6:4/w_1998,h_1332,c_limit/classic-caesar-salad-recipe-BA-071717.jpg
+https://twistdq.com/recipe/off-the-hook-grilled-salmon/
+https://www.sonshinekitchen.com/crispy-chicken-wraps-recipe/
+https://www.eatwell101.com/creamy-chicken-soup-recipe
+https://saltandbaker.com/oreo-milkshake/
+https://jackslobodian.com/kinder-bueno-milkshake/
+https://tastesofhomemade.com/ferrero-rocher-milkshake/
+https://www.tastingtable.com/1120690/old-fashioned-vanilla-milkshake-recipe/
+https://bakingmischief.com/the-best-chocolate-milkshake/
+https://mrpuffs.com/product/smarties-milkshakes/
+https://www.foodnetwork.com/recipes/food-network-kitchen/baked-feta-pasta-9867689
+https://www.foodnetwork.com/recipes/alton-brown/traditional-roast-turkey-recipe-2010390
+https://www.foodnetwork.com/recipes/fried-rice-with-simple-baked-salmon-3381517
+https://cafedelites.com/sesame-beef-stir-fry/
+https://www.foodandwine.com/recipes/seafood-boil-with-cajun-seasoning
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); */
+
+body {
+    background-color: #D0CFCF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: "poppins", sans-serif;
+   background-image: url("./images/header.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 155vh;
+};
+
+.nav-bar {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    /* width: 100% */
+}
+
+li {
+    list-style-type: none;
+    padding: 0 25px;
+    font-size:20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    /* padding-right: 30px; */
+    color: white;
+}
+
+h1 {
+    width: 40%;
+    color: white;
+    margin: 0;
+    padding-top: 15px;
+    /* padding-left:911px; */
+    /* margin-botom: 30px; */
+}
+
+
+.menuTitle {
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sectionOne {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.menuBtn {
+    font-size: 20px;
+    background-color: white;
+    color: orange;
+    border: orange 3px solid;
+    cursor: pointer;
+    margin: 0 5px;
+    margin-bottom: 35px;
+}
+
+.headerTitle {
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+.itemContainer {
+    display: flex;
+    margin-bottom: 45px;
+    /* justify-content: space-between; */
+}
+
+.divOne {
+    display: flex;
+    /* margin-right: 45px; */
+    width: 50%;
+    margin: 0 5px;
+}
+
+.divTwo {
+    display: flex;
+    width: 50%;
+    margin: 0 5px;
+
+}
+
+
+.itemImage {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+
+.itemInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.itemSubContainer {
+    display: flex;
+    /* width: 500px; */
+    border-bottom: 1px solid red;
+}
+
+.itemText {
+    font-size: 20px;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+
+.itemPrice {
+    font-size: 20px;
+}
+
+.itemDesc {
+    font-family: "poppins", sans-serif;
+    width: 90%;
+    font-size: 18px;
+}
+
+footer {
+    background-color: darkslategrey;
+    padding: 0px;
+    margin: 30px 0 0 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
